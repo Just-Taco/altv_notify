@@ -3,8 +3,14 @@ Notify system
 
 # How to use?
 
-Server-side:
+*Server-side:*
+
+alt.emitClient(player, 'server:notify', msg, time, type);
+
 alt.emitClient(player, 'server:notify', 'you just won the lottery', 2000, 'success');
 
-Client-side:
+*Client-side:*
+
+alt.emit(player, 'client:notify', msg, time, type);
+
 alt.emit(player, 'client:notify', 'you just won the lottery', 2000, 'success');
