@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="ui.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ed830ef50.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div id="notification" class="fixed top-5 right-0 bg-gray-700 text-white rounded p-4 shadow hidden transform transition-transform duration-500 translate-x-full">
+        <div class="flex items-center">
+          <div class="mr-4">
+            <i class="fas fa-info-circle text-blue-500"></i>
+          </div>
+          <div class="message"></div>
+        </div>
+      </div>
+  </body>
+</html>
