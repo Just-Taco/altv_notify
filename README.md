@@ -11,9 +11,9 @@ alt.emitClient(player, 'server:notify', 'you just won the lottery', 2000, 'succe
 
 *Client-side:*
 
-alt.emit(player, 'client:notify', msg, time, type);
+alt.emit('client:notify', msg, time, type);
 
-alt.emit(player, 'client:notify', 'you just won the lottery', 2000, 'success');
+alt.emit('client:notify', 'you just won the lottery', 2000, 'success');
 
 # alt:V.dk
 https://discord.gg/HAmKvHKS
